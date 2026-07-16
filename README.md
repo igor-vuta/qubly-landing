@@ -5,7 +5,7 @@ Focuses on pixel-perfect UI layout and responsive markup.
 No backend, no frameworks — just clean HTML, CSS, and minimal JS.
 
 <p align="center">
-  <a href="https://luxenonbeterris.github.io/qubly-landing/">
+  <a href="https://igor-vuta.github.io/qubly-landing/">
     <img src="https://img.shields.io/badge/Live-GitHub%20Pages-2ea44f?logo=github" alt="Live Demo" />
   </a>
 </p>
@@ -15,7 +15,7 @@ No backend, no frameworks — just clean HTML, CSS, and minimal JS.
 ---
 
 ## 🔗 Quick Links
-- **Live Demo:** https://luxenonbeterris.github.io/qubly-landing/
+- **Live Demo:** https://igor-vuta.github.io/qubly-landing/
 - **Tech:** [HTML5](https://developer.mozilla.org/docs/Web/HTML) · [CSS3](https://developer.mozilla.org/docs/Web/CSS) · [jQuery](https://jquery.com/) · [Fancybox](https://fancyapps.com/fancybox/) · [Bootstrap Grid](https://getbootstrap.com/docs/5.3/layout/grid/) · [Animate.css](https://animate.style/) · [WOW.js](https://github.com/matthieua/WOW)
 ---
 
