@@ -13,6 +13,12 @@ _Project facts checked 2 October 2026. Activity badges update from GitHub._
 
 <!-- project-presentation:end -->
 
+<!-- project-pattern:start -->
+
+![A cloud above a rising product analytics chart.](.github/project-pattern.svg)
+
+<!-- project-pattern:end -->
+
 # Qubly landing page
 
 A responsive, single-page front-end exercise built with HTML, Sass/CSS, and jQuery. It recreates a product landing page with a hero, feature sections, reviews, and a closing call to action.
