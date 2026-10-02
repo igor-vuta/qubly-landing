@@ -1,114 +1,53 @@
-## 🧩 Qubly – Landing Page (Legacy UI/Markup)
+<!-- project-presentation:start -->
 
-Status: Legacy project from an older portfolio.
-Focuses on pixel-perfect UI layout and responsive markup.
-No backend, no frameworks — just clean HTML, CSS, and minimal JS.
+![Qubly Landing Page — Responsive static product landing page exercise](.github/readme-header.svg)
 
-<p align="center">
-  <a href="https://igor-vuta.github.io/qubly-landing/">
-    <img src="https://img.shields.io/badge/Live-GitHub%20Pages-2ea44f?logo=github" alt="Live Demo" />
-  </a>
-</p>
+**[Open project](https://igor-vuta.github.io/qubly-landing/)** · [Repository activity](https://github.com/igor-vuta/qubly-landing/activity)
 
+[![Last commit](https://img.shields.io/github/last-commit/igor-vuta/qubly-landing?style=flat-square&color=6366f1)](https://github.com/igor-vuta/qubly-landing/commits)
+[![Repository size](https://img.shields.io/github/repo-size/igor-vuta/qubly-landing?style=flat-square&color=6366f1)](https://github.com/igor-vuta/qubly-landing)
 
+**4** Page screenshots · **6** Page sections · **No build** Static page setup
 
----
+_Project facts checked 2 October 2026. Activity badges update from GitHub._
 
-## 🔗 Quick Links
-- **Live Demo:** https://igor-vuta.github.io/qubly-landing/
-- **Tech:** [HTML5](https://developer.mozilla.org/docs/Web/HTML) · [CSS3](https://developer.mozilla.org/docs/Web/CSS) · [jQuery](https://jquery.com/) · [Fancybox](https://fancyapps.com/fancybox/) · [Bootstrap Grid](https://getbootstrap.com/docs/5.3/layout/grid/) · [Animate.css](https://animate.style/) · [WOW.js](https://github.com/matthieua/WOW)
----
+<!-- project-presentation:end -->
 
-## ✨ Highlights
-	-	🎯 Pixel-perfect UI — clean sections: hero, advantages, info, reviews, CTA.
-	-	📱 Responsive — mobile-first layout (adaptive.css).
-	-	🧭 Smooth navigation — anchor scrolling + hamburger menu.
-	-	🖼 Lightweight UI libs — Animate.css, WOW.js, Fancybox.
-	-	⚡ Zero build step — just open index.html or run a tiny HTTP server.
+# Qubly landing page
 
----
+A responsive, single-page front-end exercise built with HTML, Sass/CSS, and jQuery. It recreates a product landing page with a hero, feature sections, reviews, and a closing call to action.
 
-## 🛠️ Technology Stack
-```text
-| Layer   | Tools                                             |
-|---------|---------------------------------------------------|
-| Markup  | HTML5, semantic structure                         |
-| Styles  | CSS3 (`main.css`, `adaptive.css`), Bootstrap Grid |
-| Scripts | jQuery, Fancybox, WOW.js, Animate.css             |
-| Assets  | SVG/PNG icons in `/img/`                          |
-```
-
----
-
-## 🚀 Getting Started
-
-Option A — One-liner (Python)
-
-# from the project root (where index.html lives)
-python3 -m http.server 5173
-
-Open → http://localhost:5173
-
-Option B — Node static server (optional)
-
-npx http-server -p 5173 .
-
-Or simply open index.html directly, but a local server is recommended for consistent paths.
-
----
-
-## 📸 Screenshots
+[View the page](https://igor-vuta.github.io/qubly-landing/)
 
 <div align="center">
-  <img src="docs/screenshots/1-hero.png" width="45%" alt="Hero" />
-  <img src="docs/screenshots/2-advantages.png" width="45%" alt="Advantages" />
-  <img src="docs/screenshots/3-reviews.png" width="45%" alt="Reviews" />
-  <img src="docs/screenshots/4-cta.png" width="45%" alt="CTA" />
+  <img src="docs/screenshots/1-hero.png" width="46%" alt="Qubly landing page hero" />
+  <img src="docs/screenshots/2-advantages.png" width="46%" alt="Qubly feature cards" />
 </div>
 
+## What is in the project
 
+- Responsive layouts in `css/main.css` and `css/adaptive.css`, with Sass sources in `sass/`.
+- Anchor navigation and mobile menu behavior in `js/common.js`.
+- Scroll reveals through the included Animate.css and WOW.js files.
+- Local image assets in `img/`, plus bundled jQuery and Fancybox files in `libs/`.
 
----
+The site is static and has no account system or backend. Its Qubly product copy, logos, testimonials, and the copyright notice in `index.html` are part of the page content; they are not claims about this repository's author or a live Qubly service.
 
-## 📂 Project Structure
+## Run locally
 
-``` text
-Qubly/
-├── index.html
-├── css/
-│   ├── main.css
-│   └── adaptive.css
-├── js/
-│   └── common.js
-├── libs/
-│   ├── bootstrap-grid.min.css
-│   ├── animate.css
-│   ├── jquery.fancybox.min.{css,js}
-│   └── jquery/dist/jquery.min.js
-└── img/
-    ├── favicon/
-    ├── main_banner/
-    ├── advantages/
-    ├── info_1/ info_2/
-    └── reviews/ footer/ etc.
+From the repository root, serve the existing files:
+
+```sh
+python3 -m http.server 5173
 ```
 
----
+Open <http://localhost:5173/>. There is no build step. Edit `index.html`, `sass/`, `css/`, or `js/common.js` directly; if changing Sass, regenerate the committed CSS with your Sass compiler.
 
-## 🔧 Development Notes
-	-	No framework/bundler — edit HTML/CSS/JS directly.
-	-	Animations powered by Animate.css + WOW.js.
-	-	Smooth scrolling and mobile menu handled via jQuery.
+## More views
 
----
+<div align="center">
+  <img src="docs/screenshots/3-reviews.png" width="46%" alt="Review section" />
+  <img src="docs/screenshots/4-cta.png" width="46%" alt="Final call to action" />
+</div>
 
-## 📜 License
-
-GNU Affero General Public License v3 (AGPLv3)
-
----
-
-## 🗒️ Context (for Recruiters/HR)
-
-This is one of my older projects focused on markup and responsive UI skills.
-I intentionally avoided frameworks and heavy tooling here to demonstrate clean HTML/CSS structure and minimal JS enhancements.
+The repository includes an [AGPLv3 license](LICENSE). Bundled libraries and third-party brand assets retain their own notices and rights.
